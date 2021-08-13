@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> Valorant</title>
+        <link href="http://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/neuropol-x-free" rel="stylesheet">
+        <style>
+            body{ 
+                background-color: #000000;
+                
+            }
+            .a{
+                color:white;
+                font-size: 70px;
+                font-family: 'VALORANT', sans-serif;
+                text-align: center;
+                margin: 5px;
+                margin-bottom: 2px;
+                padding: 20px;
+                text-shadow: 3px 3px red;
+                border: #F5F5F5 5px;
+                border-radius: 15px;
+                border-style: solid;
+                box-shadow: red 5px 5px 5px 5px;
+                background-color: #000000;
+                background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03zm32.284 0L49.8 6.485 48.384 7.9l-7.9-7.9h2.83zM16.686 0L10.2 6.485 11.616 7.9l7.9-7.9h-2.83zm20.97 0l9.315 9.314-1.414 1.414L34.828 0h2.83zM22.344 0L13.03 9.314l1.414 1.414L25.172 0h-2.83zM32 0l12.142 12.142-1.414 1.414L30 .828 17.272 13.556l-1.414-1.414L28 0h4zM.284 0l28 28-1.414 1.414L0 2.544V0h.284zM0 5.373l25.456 25.455-1.414 1.415L0 8.2V5.374zm0 5.656l22.627 22.627-1.414 1.414L0 13.86v-2.83zm0 5.656l19.8 19.8-1.415 1.413L0 19.514v-2.83zm0 5.657l16.97 16.97-1.414 1.415L0 25.172v-2.83zM0 28l14.142 14.142-1.414 1.414L0 30.828V28zm0 5.657L11.314 44.97 9.9 46.386l-9.9-9.9v-2.828zm0 5.657L8.485 47.8 7.07 49.212 0 42.143v-2.83zm0 5.657l5.657 5.657-1.414 1.415L0 47.8v-2.83zm0 5.657l2.828 2.83-1.414 1.413L0 53.456v-2.83zM54.627 60L30 35.373 5.373 60H8.2L30 38.2 51.8 60h2.827zm-5.656 0L30 41.03 11.03 60h2.828L30 43.858 46.142 60h2.83zm-5.656 0L30 46.686 16.686 60h2.83L30 49.515 40.485 60h2.83zm-5.657 0L30 52.343 22.343 60h2.83L30 55.172 34.828 60h2.83zM32 60l-2-2-2 2h4zM59.716 0l-28 28 1.414 1.414L60 2.544V0h-.284zM60 5.373L34.544 30.828l1.414 1.415L60 8.2V5.374zm0 5.656L37.373 33.656l1.414 1.414L60 13.86v-2.83zm0 5.656l-19.8 19.8 1.415 1.413L60 19.514v-2.83zm0 5.657l-16.97 16.97 1.414 1.415L60 25.172v-2.83zM60 28L45.858 42.142l1.414 1.414L60 30.828V28zm0 5.657L48.686 44.97l1.415 1.415 9.9-9.9v-2.828zm0 5.657L51.515 47.8l1.414 1.413 7.07-7.07v-2.83zm0 5.657l-5.657 5.657 1.414 1.415L60 47.8v-2.83zm0 5.657l-2.828 2.83 1.414 1.413L60 53.456v-2.83zM39.9 16.385l1.414-1.414L30 3.658 18.686 14.97l1.415 1.415 9.9-9.9 9.9 9.9zm-2.83 2.828l1.415-1.414L30 9.313 21.515 17.8l1.414 1.413 7.07-7.07 7.07 7.07zm-2.827 2.83l1.414-1.416L30 14.97l-5.657 5.657 1.414 1.415L30 17.8l4.243 4.242zm-2.83 2.827l1.415-1.414L30 20.626l-2.828 2.83 1.414 1.414L30 23.456l1.414 1.414zM56.87 59.414L58.284 58 30 29.716 1.716 58l1.414 1.414L30 32.544l26.87 26.87z' fill='%23ff0000' fill-opacity='0.35' fill-rule='evenodd'/%3E%3C/svg%3E");
+                }
+            .container {
+                width: 100%;
+                margin-top: 20px;
+                font-size: 20px;
+                font-family:monospace;
+            }
+            .container ul {
+                list-style-type: none;
+                margin:20px;
+                padding: 0px;
+                background-color: black;
+                overflow: hidden;
+                border:whitesmoke 4px;
+                border-style: solid;
+                border-radius: 20px;}
+            .container li{ float: left;
+                border-right: white 2px;
+                border-style: solid;
+                border-top: 0px;
+                border-bottom: 0px;
+                border-left: 0px;
+                margin: 0px;
+            }
+            .container li a{ 
+                display: list-item;
+                color:white;
+                text-align: left;
+                padding: 14px 16px;
+                text-decoration: none;
+                text-shadow: red 1px 1px;
+            }
+            .container li a:hover{
+                background-color: black;
+            }
+
+            .dropdown-content{ 
+                display: none;
+                background-color:black;
+                width: 165px;
+                position: absolute;
+                text-align: left;
+            }
+            .dropdown-content a:hover {background-color: red}
+            .dropdown:hover .dropdown-content {
+                display:block;
+            }
+            .b{ 
+                color: white;
+                text-shadow: red 5px 5px;
+                font-family:'VALORANT', sans-serif;
+                font-size: 70px;
+                text-align: center;
+            }
+            .c{ 
+                color: white;
+                font-size: 30px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+            .agent ul{ 
+                color:white;
+                font-size: 30px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .d{ 
+                color:white;
+                font-size: 30px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .video{ 
+                text-align: center;
+            }
+            .Gamemodes{
+                color: red;
+                font-size: 70px;
+                font-family:'VALORANT', sans-serif;
+                text-shadow: white 2px 2px;
+                text-decoration: underline red;
+            }
+            .abc{ 
+                color: white;
+                font-size: 20px;
+                font-family: monospace;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
+
+            }
+            .img{ 
+                flex-basis: auto; 
+                margin: 20px;
+            }
+            .rank{ 
+                color: red;
+                font-size: 70px;
+                font-family:'VALORANT', sans-serif;
+                text-shadow: white 2px 2px;
+                text-decoration: underline red;
+                text-align:center;
+            }
+            .ranked{ 
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+            }
+            .ranking{ 
+                color: white;
+                font-size: 35px;
+                font-family: monospace;
+            }
+            .ranking li{ 
+                list-style-type: none;
+                background-size: 30px;
+                background-repeat: no-repeat;
+                background-image: url('https://emoji.gg/assets/emoji/9768_Radiant_Valorant.png');
+                height: 54px;
+                padding-left: 44px;
+                padding-top: 3px;
+            }
+            .agent li{ 
+                list-style-type: none;
+                background-size: 30px;
+                background-repeat: no-repeat;
+                background-image: url('https://canyonechoes.org/wp-content/uploads/2021/02/valornt.jpg');
+                height: 54px;
+                padding-left: 44px;
+                padding-top: 3px;
+            }
+        </style>
+    </header>
+    <body>
+        <div>
+            <p class="a">G4M3 REV1EW</p><br>
+        </div>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="idex.html"> Home Page</a>
+                </li>
+                <li>
+                    <a href="esport.html"> E-Sport Tournament</a>
+                </li>
+                <li class="dropdown">
+                    <a> Popular Games </a>
+                    <div class="dropdown-content">
+                        <a href="Valorant.html"> Valorant</a>
+                        <a href="Minecraft.html"> Minecraft</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="b">
+            <p>Valorant</p>
+            <img src="https://canyonechoes.org/wp-content/uploads/2021/02/valornt.jpg"height="500px"width="500px">
+            <img src="https://freight.cargo.site/w/3840/q/75/i/0ef54b366b06e310dd46157c257215683487c0083c51d3f7dd10ee1e9d1f69d9/VALORANT_Jett_Red-1-1.jpg"width="900px"height="500px">
+        </div>
+        <div>
+            <p class="c">&emsp;&emsp;&emsp;Valorant is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows. First teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by an official release on June 2, 2020.<br><br><br><iframe class="video"width="100%" height="500px" src="https://www.youtube.com/embed/g8amyzDHOKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>&emsp;&emsp;&emsp;There are a large variety of playable agents available in the game. Agents are divided into 4 roles: Duelists, Sentinels, Initiators, and Controllers. Each agent has a different role which indicates how the agent is usually played.</p>
+        </div>
+        <div class="agent">
+            <ul>&emsp;Those agents are:
+                <li> <span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Duelists:</span> Pheonix, Reyna, Jett, Raze and Yoru</li>
+                <li> <span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Controller:</span> Astra, Brimstone, Omen, and Viper.</li>
+                <li> <span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Initiator:</span> Breach, KAY/O, Skye, and Sova.</li>
+                <li> <span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Sentinel:</span> Cypher, Killjoy, and Sage.</li>
+            </ul>
+            <img src="https://i.imgur.com/QnazglI.jpg"width="100%"height="auto">
+        </div>
+        <div class="Gamemodes"> 
+            <p> Gamemodes</p>
+        </div>
+        <div >
+            <div class="abc">
+                <p> &emsp;&emsp;&emsp;<span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Unrated</span>  is a standard non-ranked mode, the match is played as best of 25 - the first team to win 13 rounds wins the match. The attacking team has a bomb-type device called the Spike. They must deliver and activate the Spike on one of the multiple specified locations (bomb sites). If the attacking team successfully protects the activated Spike for 45 seconds it detonates, destroying everything in a specific area, and they receive a point.</p>
+                <img class="img"src="C:\Users\HUAWEI\Pictures\gamesmode (3).png">
+            </div>
+            <div class="abc">
+                <img class="img"src="C:\Users\HUAWEI\Pictures\gamesmode (4).png">
+                <p> &emsp;&emsp;&emsp;In the <span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Spike Rush</span> mode, the match is played as best of 7 rounds - the first team to win 4 rounds wins the match. Players begin the round with all abilities fully charged except their ultimate, which charges twice as fast as in standard games. All players on the attacking team carry a spike, but only one spike may be activated per round. Guns are randomized in every round and every player begins with the same gun. Ultimate point orbs in the standard game are present, but there are multiple power-up orbs instead.</p>
+            </div>
+            <div class="abc">   
+                <p> &emsp;&emsp;&emsp;<span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Competitive</span> matches are the same as unranked matches with the addition of a win-based ranking system that assigns a rank to each player after 5 games are played. Before you can play in competitive games, you will need to win 10 unrated matches beforehand. In July 2020, Riot introduced a "win by two" condition for competitive matches, where instead of playing a single sudden death round at 12-12, teams will alternate playing rounds on attack and defense in overtime until a team claims victory by securing a two-match lead. Each overtime round gives players the same amount of money to purchase guns and abilities, as well as approximately half of their ultimate ability charge.</p>
+                <img class="img"src="C:\Users\HUAWEI\Pictures\gamesmode (2).png">
+            </div>
+            <div class="abc" >
+            <img class="img"src="https://static.wikia.nocookie.net/valorant/images/a/a9/TX_FFAModeIcon.png/revision/latest/scale-to-width-down/128?cb=20200805002133">
+            <p> &emsp;&emsp;&emsp; The <span style="text-shadow:red 2px 2px; font-family:'VALORANT', sans-serif;">Deathmatch mode</span> was introduced on August 5, 2020. 14 players enter a 9-minute free-for-all match and the first person to reach 40 kills or the player who has the most kills when time is up wins the match. Players spawn in with a random agent, and all abilities are disabled during the match which indulges pure gunplay. Green health packs drop on every kill, which set the player at maximum health, armor, and ammunition, unless the player is using a machine gun, which only gives the player an additional 30 bullets.</p>
+            </div>
+        </div>
+        <div class="rank">
+            <p> Ranking</p>
+        </div>
+        <div class="ranking"> 
+            <ul> &emsp;&emsp;&emsp; There are eight ranks or divisions in the Valorant ranking system:
+                <li> <span style="color: grey;"> Iron </span> ( I, II, III)</li>
+                <li> <span style="color: #CD7F32;"> Bronze </span> ( I, II, III)</li>
+                <li> <span style="color: #D3D3D3;"> Silver </span> ( I, II, III)</li> 
+                <li> <span style="color: gold;"> Gold </span> ( I, II, III)</li>
+                <li> <span style="color: turquoise;"> Platnium </span> ( I, II, III)</li> 
+                <li> <span style="color: #FF00FF;"> Diamond </span> ( I, II, III)</li>         
+                <li> <span style="color: red;"> Immortal </span> ( I, II, III)</li>
+                <li> <span style="color: #FFD700;"> Radiant </span> ( previously called "Valorant") </li>
+            </ul>
+            <img class="ranked" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5a6438f76e89acf/5eec2c0f34f8f30c7cfb3025/VALORANT_ICONS_2.jpg"width="80%"height="auto">
+            <p> &emsp;&emsp;&emsp; The first six ranks also have three tiers or sub-ranks each you need to get through to advance to the next rank. The last two ranks, Immortal and Radiant, only have one tier each. There are 20 ranks in Valorant in total, excluding Unranked.</p>
+        </div>
+    </body>
+</html>
